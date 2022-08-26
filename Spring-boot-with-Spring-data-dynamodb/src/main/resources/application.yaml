@@ -1,0 +1,10 @@
+aws:
+  dynamoDBUrl: http://localhost:8000
+  accessKey: EMPTY
+  secretKey: EMPTY
+
+spring:
+  data:
+    dynamodb:
+      entity2ddl:
+        auto: create-only
